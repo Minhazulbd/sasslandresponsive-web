@@ -1,0 +1,424 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 17px;
+}
+
+img{
+    max-width: 100%;
+}
+
+.container {
+    width: 1200px;
+    margin: auto;
+}
+
+header{
+    background-color:#7F56F5;
+    padding: 10px 0 10px 0;
+    position: fixed;
+    left: 0;
+    right: 0;
+
+}
+.logo{
+    width: 400px;
+    float: left;
+
+}
+.logo img{
+
+
+}
+
+nav{
+    width: 800px;
+    float: left;
+
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    text-align: right;
+
+    
+
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 20px;
+    
+
+
+}
+nav ul li a{
+text-decoration: none;  
+color: white;
+font-weight: 600;
+
+}
+/* this is banner section*/
+.banner{
+background-color:#7F56F5;
+padding: 150px 0 100px 0;
+text-align: center;
+color: white;
+}
+.banner h1{
+    margin: 0;
+    font-size: 50px;
+}
+#but{
+    padding: 10px;
+    background-color: blue;
+}
+.blog-item{
+    
+}
+.single-item{
+    margin: 70px 0;
+    overflow: hidden;
+}
+.single-text{
+    width: 50%;
+    float: left;
+}
+.text{
+    padding: 0 50px 0 0;
+}
+.single-text img{}
+.single-text h1{
+    font-size: 40px;
+    text-transform: capitalize;
+}
+.single-text p{}
+.single-photo{
+    width: 50%;
+    float: left;
+}
+.single-text button{
+    border: 1px solid rgb(213, 81, 145);
+    background-color: rgb(88, 88, 182);
+    border-radius: 10px;
+    padding: 10px;
+    color:white;
+    font-size: 17px;
+    cursor: pointer;
+    transition: all 0.3s linear;
+}
+.single-text button:hover{
+    background-color: rgb(8, 202, 202);
+   
+}
+.single-photo img{}
+
+footer{
+    background-color: #F5F5FA;
+    padding-top: 50px;
+}
+.footer-item-parent{
+    display: flex;
+}
+.footer-item{
+    width: 25%;
+}
+.footer-item img{}
+.footer-item p{
+    padding-right: 60px;
+}
+.footer-item h5{
+    font-size: 20px;
+    margin: 0 0 20px 0;
+    color: black;
+}
+.footer-item li{
+    list-style: none;
+    padding: 10px 0 10px 0;
+}
+.footer-item li a{
+    color: black;
+    text-decoration: none;
+   
+}
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: rgb(98, 16, 213);
+    color: white;
+    cursor: pointer;
+    padding: 13px 16px;
+    border-radius: 30px;
+  }
+  
+  #myBtn:hover {
+    background-color: #555;
+  }
+  /* width */
+::-webkit-scrollbar {
+    width: 20px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px rgb(38, 218, 10); 
+    border-radius: 20px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: red; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #b30000; 
+  }
+  .blue{
+    position:fixed;
+    top:0;
+    background:blue;
+    width:100%;
+    height:50px;
+  }
+
+  @media only screen and (max-width:667px){
+    .container
+
+     {
+        width: 100%;   
+     }
+
+    header
+    { 
+        padding: 10px 0 10px 0;   
+    }
+    .logo
+    {
+        width: 100%;
+        text-align: center;
+    }
+    .logo img
+    {
+    }
+    
+    nav
+    {
+        width: 100%;
+    }
+    nav ul
+     {   
+        text-align: center;
+    }
+    
+    nav ul li
+    {   
+        padding: 15px 4px 0 4px;
+    }
+    /*banner responsive*/
+    
+        .banner h1{
+            
+            font-size: 30px;
+        }
+
+        /* main section*/
+        .blog-item{
+    
+        }
+        .single-item{
+            margin: 50px 10px;
+            
+        }
+        .single-text{
+            width: 100%;
+            
+        }
+        .text{
+            padding: 0 0 0 0;
+        }
+        
+        .single-text h1{
+            font-size: 30px;
+            
+        }
+      
+        .single-photo{
+            width: 100%;
+            
+        }
+        .single-text button{
+           width: 100%;
+        }
+        
+        .footer-item-parent{
+            display: block;
+            text-align: center;
+        }
+        .footer-item{
+            width: 100%;
+        }
+        
+        .footer-item p{
+            padding-right: 0px;
+        }
+        .footer-item h5{
+            
+            margin: 20px 0 20px 0;
+            
+        }
+        
+         /* scrool bottom to top  button */
+        #myBtn
+         {
+            bottom: 10px;
+            right: 10px;
+            
+          }
+          
+          
+        
+  }
+
+  @media only screen and (min-width:668px) and (max-width:991px){
+
+
+
+    .container
+
+     {
+        width: 100%;   
+     }
+
+    header
+    { 
+        padding: 10px  10px;   
+    }
+    .logo
+    {
+        width: 20%;
+        
+    }
+    .logo img
+    {
+    }
+    
+    nav
+    {
+        width: 80%;
+    }
+    nav ul
+     {   
+        text-align: right;
+    }
+    
+    nav ul li
+    {   
+        padding: 15px 4px 0 4px;
+    }
+    /*banner responsive*/
+    
+        .banner h1{
+            
+            font-size: 40px;
+        }
+
+        /* main section*/
+        .blog-item{
+    
+        }
+        .single-item{
+            margin: 50px 10px;
+            
+        }
+        
+        .text{
+            padding: 0 0 0 0;
+        }
+        
+        .single-text h1{
+            font-size: 35px;
+            
+        } 
+      
+        
+        /* .single-text button{
+           width: 100%;
+        } */
+        
+        .footer-item-parent{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            text-align: center;
+        }
+        .footer-item{
+            width: 50%;
+            padding: 0 0 0 20px;
+        }
+         
+  }
+  @media only screen and (min-width:992px) and (max-width:1023px){
+    .container
+
+     {
+        width: 94%;   
+     }
+
+    header
+    { 
+        padding: 10px  10px;   
+    }
+    .logo
+    {
+        width: 10%;
+        
+    }
+    
+    
+    nav
+    {
+        width: 80%;
+    }
+    /*banner responsive*/
+    
+    .banner h1{
+            
+        font-size: 40px;
+    }
+
+    
+    
+    
+    
+    
+    .single-text h1{
+        font-size: 40px;
+        
+    } 
+  
+    
+    
+    
+    
+    
+
+
+
+  }
+        
+
+
+
+
